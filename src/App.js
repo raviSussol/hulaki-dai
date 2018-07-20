@@ -1,7 +1,5 @@
 /**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
+ * पत्र आदन - प्रदान गर्ने याप्प्स
  * @format
  * @flow
  */
@@ -12,19 +10,15 @@ import {Platform, StyleSheet, Text, View} from 'react-native';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: 'flex-start',
+    // alignItems: 'center',
     backgroundColor: '#F5FCFF',
   },
   welcome: {
-    fontSize: 20,
+    fontSize: 30,
     textAlign: 'center',
     margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
+    color: '#2E383B',
   },
 });
 
